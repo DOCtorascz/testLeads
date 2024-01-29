@@ -1,5 +1,6 @@
 Стек: Scss, css, html, js;
 Проект дополнительно опубликован в gihubPages: https://doctorascz.github.io/testLeads/
+Затрачено 6 часов;
 
 Логика реализована в соответствиии с тех требованием: 
 
