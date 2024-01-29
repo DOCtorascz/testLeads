@@ -1,4 +1,5 @@
 Стек: Scss, css, html, js;
+Проект дополнительно опубликован в gihubPages: https://doctorascz.github.io/testLeads/
 
 Логика реализована в соответствиии с тех требованием: 
 
