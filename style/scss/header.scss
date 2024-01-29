@@ -1,0 +1,138 @@
+@import 'index';
+$fontF: 'Inter', sans-serif;
+$color: rgba(255, 255, 255, 0.80);
+$fontS: 12px;
+
+.header {
+  margin-bottom: 59px;
+
+  .header__inner {
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 35px;
+
+    .header__nav-content {
+      display: flex;
+    }
+
+    .header__logo-item {
+      margin-right: 87px;
+    }
+
+    .header__menu-inner {
+      display: flex;
+
+      .header__menu-content {
+        margin-right: 48px;
+        transform: scale(1);
+      }
+
+      .header__menu-content:last-child {
+        margin-right: 0;
+      }
+
+      .header__menu-item {
+        display: inline-block;
+        font-family: $fontF;
+        color: $color;
+        font-size: $fontS;
+        transition: 1s;
+      }
+
+      .header__menu-item:hover {
+        transition: 500ms;
+        transform: scale(1.1);
+        color: white;
+      }
+    }
+
+    .header__btn {
+      font-family: $fontF;
+      color: $color;
+      font-size: $fontS;
+      background: none;
+      padding: 12px 35px;
+      margin-left: 14px;
+      border-radius: 7px;
+      border: 0.864px solid transparent;
+      background: transparent;
+      transition: 1s;
+    }
+
+    .header__btn:hover {
+      border: 0.864px solid #d66567;
+      background: #bc474926;
+    }
+
+    .check {
+      border: 0.864px solid #D66567;
+      background: #BC4749;
+    }
+
+  }
+}
+
+@import 'leads';
+
+@media (max-width: 985px) {
+  .leads__list-inner {
+    flex: 1 1 auto;
+    margin-right: 5px !important;
+  }
+  .leads__list-inner:nth-child(2) {
+    position: static !important;
+  }
+}
+
+@media (max-width: 895px) {
+  .header__menu-content {
+    margin-right: 30px !important;
+  }
+  .leads__name {
+    margin-bottom: 18px !important;
+  }
+}
+
+@media (max-width: 830px) {
+  .leads__list-inner {
+    margin-bottom: 20px;
+  }
+
+  .header__logo-item {
+    margin-right: 25px !important;
+  }
+
+  .leads__list {
+    display: block !important;
+    text-align: center;
+  }
+
+  .leads-specifications-list {
+    display: inline-block;
+  }
+}
+
+@media (max-width: 770px) {
+  .header__nav-content {
+    display: block !important;
+  }
+
+  .header__menu-inner {
+    display: block !important;
+  }
+
+  .header__logo-item {
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 380px) {
+.header__form {
+  text-align: center;
+}
+}
